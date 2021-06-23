@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+
+    <menuitem name="Rapports" id="sdq_reports_menus.menu_root" web_icon="sdq_reports_menus,static/description/icon.jpg"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Analyse des Ventes" id="analyse_des_ventes" parent="sdq_reports_menus.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Analyse des Ventes" id="sous_m_analyse_des_ventes" parent="analyse_des_ventes"
+              action="sale.action_order_report_all"/>
+
+  </data>
+</odoo>

@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+    <!-- menu categories -->
+
+    <menuitem name="Analyses de Point de Vente" id="analyses_point_of_sale" parent="sdq_reports_menus.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Commandes" id="commands_p_o_s" parent="analyses_point_of_sale"
+              action="point_of_sale.action_report_pos_order_all"/>
+    <menuitem name="Détails des Ventes" id="details_p_o_s" parent="analyses_point_of_sale"
+              action="point_of_sale.action_report_pos_details"/>
+
+  </data>
+</odoo>

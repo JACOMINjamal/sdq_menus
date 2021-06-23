@@ -1,0 +1,12 @@
+<odoo>
+  <data>
+    <!-- menu categories -->
+
+    <menuitem name="Analyses de Facturation" id="account_analyses_menu" parent="sdq_reports_menus.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Facture" id="account_invoice_id" parent="account_analyses_menu"
+              action="account.action_account_invoice_report_all"/>
+  </data>
+</odoo>

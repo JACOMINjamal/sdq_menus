@@ -1,0 +1,1 @@
+----this models inherits report pos,stock,sale and purchase-----

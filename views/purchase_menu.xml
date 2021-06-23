@@ -1,0 +1,12 @@
+<odoo>
+  <data>
+    <!-- menu categories -->
+
+    <menuitem name="Analyse des Achats" id="purchase_reports_menu" parent="sdq_reports_menus.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Analyse des Achats" id="purchase_reports_s_menu" parent="purchase_reports_menu"
+              action="purchase.action_purchase_order_report_all"/>
+  </data>
+</odoo>

@@ -1,0 +1,21 @@
+<odoo>
+  <data>
+    <!-- menu categories -->
+
+    <menuitem name="Analyses des Stocks" id="stock_analyses_menu" parent="sdq_reports_menus.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Rapport d'inventaire" id="stock_qty_history" parent="stock_analyses_menu"
+              action="stock.action_stock_quantity_history"/>
+    <menuitem name="Valorisation de l'inventaire" id="stock_inventory_valuation_menu" parent="stock_analyses_menu"
+              action="stock_account.action_stock_inventory_valuation"/>
+    <menuitem name="Mouvements de stocks" id="stock_move_report_menu" parent="stock_analyses_menu"
+              action="stock.stock_move_action"/>
+    <menuitem name="Mouvements de produits" id="stock_move_line_report_menu" parent="stock_analyses_menu"
+              action="stock.stock_move_line_action"/>
+
+
+
+  </data>
+</odoo>
